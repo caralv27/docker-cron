@@ -3,6 +3,7 @@
 * * * * * date >> /workspace/date.txt
 * * * * * php artisan schedule:run >> /dev/null 2>&1
 * * * * * pdw > /root/pwd.txt
+* * * * * cd /workspace && pdw > /root/pwd.txt
 
 # An empty line is required at the end of this file for a valid cron file.
 
