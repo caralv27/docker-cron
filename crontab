@@ -1,9 +1,5 @@
 * * * * * cd /workspace && php artisan schedule:run >> /dev/null 2>&1
-* * * * * date >> /root/date.txt
-* * * * * date >> /workspace/date.txt
 * * * * * php artisan schedule:run >> /dev/null 2>&1
-* * * * * ls > /root/pwd.txt
-
 
 # An empty line is required at the end of this file for a valid cron file.
 
